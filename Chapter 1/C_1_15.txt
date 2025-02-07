@@ -1,0 +1,10 @@
+smallest = max(int) # not sure how to denote this
+largest = min(int)
+
+array = [1, 2, 3, 4, 5]
+for index = 0; index < array.length; index++;
+    if smallest > array[index]
+        smallest = array[index]
+    
+    if largest < array[index]
+        largest = array[index]
